@@ -1,0 +1,17 @@
+article.licences {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+section.error {
+    flex-direction: column;
+    margin: 1rem;
+    width: 50vw;
+}
+
+section.error > div.login-credentials {
+    flex-direction: column;
+    padding: 1rem;
+}

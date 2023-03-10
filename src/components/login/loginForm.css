@@ -1,0 +1,63 @@
+div.login {
+    position: absolute;
+    top: 50px;
+    width: 30vw;
+}
+
+div.login .login-form {
+    width: 100%;
+    padding: 1rem;
+    background: var(--main-background);
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--shadow-md);
+    flex-direction: column;
+}
+
+
+div.login .login-error {
+    color: var(--alert-color);
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem;
+}
+
+div.login input {
+    width: 100%;
+    margin: .5rem;
+    text-align: center;
+    padding: .5rem 0;
+}
+
+div.login .login-button {
+    border-radius: var(--border-radius-sm);
+    padding: .5rem 1rem;
+    outline: none;
+    background: var(--button-primary-background);
+    border: var(--border-sm);
+    cursor: pointer;
+}
+
+div.login .login-button:hover {
+    background: var(--button-primary-background-hover);
+}
+
+/* =========================================== LAODING =========================================== */
+div.loading {
+    position: absolute;
+    inset: 0;
+    z-index: 1000;
+    background: var(--overlay-background-transparent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: wait;
+}
+
+div.loading-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: var(--blue);
+}

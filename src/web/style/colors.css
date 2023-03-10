@@ -1,0 +1,56 @@
+:root {
+    --font-family: 'Open Sans', 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+    --success-color: #86c965;
+    --success-color-hover: #a6d290;
+    --warning-color: #fba161;
+    --warning-color-hover: #fcbf99;
+    --alert-color: #fb6161;
+    --alert-color-hover: #fc9999;
+    --white: #fff;
+    --black: #000;
+    --red: #c41a1a;
+    --green: #179d41;
+    --gold: #DFAE2D;
+    --light-black: #171717;
+    --darker-gray: #333;
+    --dark-gray: #666;
+    --gray: #9b9b9b;
+    --light-gray: #dedede;
+    --clear-blue: #99e7fc;
+    --blue: #61dafb;
+    --dark-blue: #4eb0cc;
+    --darker-blue: #2F70C9;
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    --shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+    --shadow-none: 0 0 #0000;
+    --overlay-background-transparent: rgba(23, 23, 23, 0.7);
+
+    --shadow-effect-color: rgba(54, 54, 54, 0.53);
+    --shadow-effect-box: 10px 5px 5px #575757;
+
+    --border-sm: 1px solid #ebedee;
+    --border-md: 2px solid #ebedee;
+    --border-lg: 3px solid #ebedee;
+    --border-color: #ebedee;
+
+    --border-radius-sm: 10px;
+    --border-radius-md: 14px;
+    --border-radius-lg: 16px;
+    --border-radius-xl: 18px;
+    --border-radius-2xl: 20px;
+    --border-radius-full: 50%;
+
+    --main-background: #ebefea;
+    --menu-background: #282c34;
+    --menu-text-color: #dedede;
+    --text-color: #2d3538;
+    --text-color-secondary: #9aa7af;
+    --text-color-notice: #a6afbb;
+    --button-primary-background: #ffffff;
+    --button-primary-background-hover: #99e7fc;
+}
