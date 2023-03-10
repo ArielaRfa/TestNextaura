@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "label": "Clés Jetbrains",
+    "type": "Fichier clés",
+    "expirationDate": "15/06/2023",
+    "file": "https://picsum.photos/1600/900.jpg",
+    "total": 10,
+    "used": 10,
+    "contact": "sringot@nextaura.com",
+    "createdBy": "admin@test.com",
+    "createdAt": "20/02/2023 13:30"
+  },
+  {
+    "id": 2,
+    "label": "Zoho connect",
+    "type": "Abonnement",
+    "expirationDate": "31/12/2023",
+    "file": null,
+    "total": 20,
+    "used": 13,
+    "contact": "jmjacquot@nextaura.com",
+    "createdBy": "admin@test.com",
+    "createdAt": "20/02/2023 13:35"
+  },
+  {
+    "id": 3,
+    "label": "Swagger Hub - Administration",
+    "type": "Abonnement",
+    "expirationDate": "31/03/2023",
+    "file": null,
+    "total": 3,
+    "used": 3,
+    "contact": "jmjacquot@nextaura.com",
+    "createdBy": "admin2@test.com",
+    "createdAt": "20/02/2023 13:29"
+  },
+  {
+    "id": 4,
+    "label": "Swagger Hub - Consultant",
+    "type": "Abonnement",
+    "expirationDate": "31/08/2023",
+    "file": null,
+    "total": 5,
+    "used": 3,
+    "contact": "jmjacquot@nextaura.com",
+    "createdBy": "admin@test.com",
+    "createdAt": "20/02/2023 13:25"
+  },
+  {
+    "id": 5,
+    "label": "Docker",
+    "type": "Serveur de licences",
+    "expirationDate": null,
+    "file": "https://picsum.photos/1600/900.jpg",
+    "total": 20,
+    "used": 1,
+    "contact": "sringot@nextaura.com",
+    "createdBy": "admin2@test.com",
+    "createdAt": "20/02/2023 13:33"
+  },
+  {
+    "id": 6,
+    "label": "Moqups",
+    "type": "Fichier clés",
+    "expirationDate": "05/02/2023",
+    "file": "https://picsum.photos/1600/900.jpg",
+    "total": 4,
+    "used": 3,
+    "contact": "jmjacquot@nextaura.com",
+    "createdBy": "admin@test.com",
+    "createdAt": "20/02/2023 13:28"
+  }
+]

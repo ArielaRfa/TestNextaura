@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Licence index{% endblock %}
+
+{% block body %}
+    <h1>Licence index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Label</th>
+                <th>Type</th>
+                <th>ExpirationDate</th>
+                <th>File</th>
+                <th>Total</th>
+                <th>Used</th>
+                <th>Contact</th>
+                <th>CreatedBy</th>
+                <th>CreatedAt</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for licence in licences %}
+            <tr>
+                <td>{{ licence.id }}</td>
+                <td>{{ licence.Label }}</td>
+                <td>{{ licence.type }}</td>
+                <td>{{ licence.expirationDate ? licence.expirationDate|date('Y-m-d H:i:s') : '' }}</td>
+                <td>{{ licence.file }}</td>
+                <td>{{ licence.total }}</td>
+                <td>{{ licence.used }}</td>
+                <td>{{ licence.contact }}</td>
+                <td>{{ licence.createdBy }}</td>
+                <td>{{ licence.createdAt ? licence.createdAt|date('Y-m-d H:i:s') : '' }}</td>
+                <td>
+                    <a href="{{ path('app_licence_show', {'id': licence.id}) }}">show</a>
+                    <a href="{{ path('app_licence_edit', {'id': licence.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="11">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_licence_new') }}">Create new</a>
+{% endblock %}

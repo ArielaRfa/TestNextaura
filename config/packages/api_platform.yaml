@@ -1,0 +1,28 @@
+api_platform:
+    # The title of the API.
+    title: '%app.name_internal%'
+    # The description of the API.
+    description: '%app.description%'
+    # The version of the API.
+    version: '%app.version%'
+    # Set this to false if you want Webby to disappear.
+    show_webby: false
+    # Enable the Swagger documentation and export.
+    enable_swagger: true
+    # Enable Swagger UI.
+    enable_swagger_ui: true
+    swagger:
+        versions: [3]
+        # The swagger API keys.
+        api_keys: []
+    # Enable the docs.
+    enable_docs: true
+    # Enable the data collector and the WebProfilerBundle integration.
+    enable_profiler: true
+    doctrine:
+        # To enable or disable Doctrine ORM support.
+        enabled: true
+    mapping:
+        paths: ['%kernel.project_dir%/src/Entity']
+    patch_formats:
+        json: ['application/merge-patch+json']
